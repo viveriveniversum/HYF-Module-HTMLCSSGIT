@@ -1,0 +1,850 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+header .header-wrapper{
+    padding: 0.75rem;
+    background-color: #fdf0e5;
+}
+
+.container-fluid button{
+    background-color: #fdf0e5;
+    border: 0;
+    color:#544af3;
+    padding-right: 16px;
+    padding-left: 16px;
+}
+
+.navbar{
+    padding-right: 4rem;
+    padding-left: 4rem;
+    background-color: #fdf0e5;
+}
+
+nav ul li a{
+    font-size: 0.875rem;
+}
+
+nav svg{
+    margin-right: 2rem;
+}
+
+header nav button{
+    font-weight: 700;
+}
+
+.gamut-1gm52i-LogoSvg{
+    max-width: 130px;
+}
+
+.gamut-mcjj5j-Svg{
+    width: 22px;
+    height: 22px;
+}
+
+.secLabel svg{
+    width: 0.8rem;
+}
+
+.selfSecond img{
+    max-width: 100%;
+}
+
+.joinPic img{
+    max-width: 100%;
+}
+
+li{
+    list-style-type: none;
+}
+
+input{
+    padding-bottom: 0.5rem;
+    line-height: 24px;
+}
+
+/*Layout*/
+.mainContainer{
+    display: flex;
+    flex-direction: column; 
+}
+
+.mainWrapper{
+    display: flex;
+    flex-direction: column;
+    background-color: #fdf0e5;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 3rem;
+    padding-top: 2rem;
+}
+
+.join{
+    display: flex;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.join .joinPic{
+    flex: 0 0 50%;
+    display: flex;
+    min-height: 220px;
+    justify-content: center;
+    align-items: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.join .joinForm{
+    flex: 0 0 50%;
+    display: flex;
+    justify-content: center;
+}
+.join .joinForm .joinFormWrapper{
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.joinFormWrapper h1{
+    font-size: 1.625rem;
+    font-weight: 700;
+    line-height: 1.5;
+    padding-bottom: 1rem;
+}
+
+.joinFormWrapper .form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.firstLabel{
+    padding-bottom: 0.5rem;
+    width: 100%;
+}
+.firstLabel label{
+    font-size: 1rem;
+    font-weight: 400;
+    display: block;
+
+}
+.firstLabel input{
+    outline: none;
+    padding-top: 0.75rem;
+    padding-left: 0.5rem;
+    padding-bottom: 0.75rem;
+    line-height: 1.5rem;
+    width: 100%;
+    min-height: auto;
+    font-size: 1rem;
+}
+
+.secLabelWrapper{
+    padding-bottom: 0.5rem;
+    width: 100%;
+}
+
+.secLabel{
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+.secLabel label{
+    font-size: 1rem;
+    font-weight: 400;
+    display: block;
+}
+.secLabel svg{
+    position: absolute;
+    left: calc(100% - 1.1rem);
+}    
+
+.secLabelWrapper input{
+    outline: none;
+    padding-top: 0.75rem;
+    padding-left: 0.5rem;
+    padding-bottom: 0.75rem;
+    line-height: 1.5rem;
+    width: 100%;
+    min-height: auto;
+    font-size: 1rem;
+}
+
+.formButton{
+    display: flex;
+    margin-bottom: 0.5rem;
+    justify-self: stretch;
+    line-height: 2rem;
+}
+
+.formButton button{
+    background-color: #544af3;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    box-shadow: none;
+    border: 2px solid #544af3;
+    border-color: transparent;
+    font-size: 1rem;
+    font-weight: 500;
+    white-space: nowrap;
+    border-radius: 4px;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    min-width: 40px;
+    height: 40px;
+}
+
+.policy{
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    line-height: 1.5rem;
+}
+
+.policy small{
+    display: inline-block;
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+
+.policy small a{
+    color: #544af3;
+}
+
+.logos h2{
+    font-weight: 700;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.logos .btnContainer{
+    display: flex;
+    margin-bottom: 1rem;
+    column-gap: 1rem;
+}
+
+.logos .btnContainer .logosLink{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logos .btnContainer .logosLink a{
+    cursor: pointer;
+    padding: 0;
+    border: 1px solid #10162f;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    position: relative;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    min-width: 40px;
+    width: 65px;
+    height: 53px;
+    background-color: #fff;
+}
+.logos .btnContainer .logosGoogle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logos .btnContainer .logosGoogle a{
+    cursor: pointer;
+    padding: 0;
+    border: 1px solid #10162f;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    position: relative;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    min-width: 40px;
+    width: 65px;
+    height: 53px;
+    background-color: #fff;
+}
+.logos .btnContainer .logosFace{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logos .btnContainer .logosFace a{
+    cursor: pointer;
+    padding: 0;
+    border: 1px solid #10162f;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    position: relative;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    min-width: 40px;
+    width: 65px;
+    height: 53px;
+    background-color: #fff;
+}
+.logos .btnContainer .logosGit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logos .btnContainer .logosGit a{
+    cursor: pointer;
+    padding: 0;
+    border: 1px solid #10162f;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    position: relative;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    min-width: 40px;
+    width: 65px;
+    height: 53px;
+    background-color: #fff;
+    border-radius: 2px;
+}
+
+.mainContainer .mainWrapper .goal{
+    display: flex;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    row-gap: 0.5rem;
+    width: 100%;
+}
+.mainContainer .mainWrapper .goal .goalText{
+
+}
+
+.mainContainer .mainWrapper .goal .goalText h2{
+    font-size: 2.75rem;
+    padding-bottom: 1rem;
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+.mainContainer .mainWrapper .goal .goalText .goals ul{
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+
+}
+
+.mainContainer .mainWrapper .goal .goalText .goals ul li{
+    border-bottom: 1px solid black;
+    min-height: 4rem;
+}
+.mainContainer .mainWrapper .goal .goalText .goals ul li h3{
+    font-size: 1.625rem;
+    font-weight: 700;
+    align-self:center;
+}
+
+.mainContainer .mainWrapper .goal .goalText .goals ul li p{
+    margin-bottom: 1rem;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.mainContainer .mainWrapper .goal .goalText2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex-wrap: nowrap;
+}
+
+.mainContainer .mainWrapper .goal .goalText2 .goalRect{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin-left: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainContainer .mainWrapper .goal .goalText2 .browse{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+.mainContainer .mainWrapper .goal .goalText2 .browse a{
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #544af3;
+    text-decoration: none;
+}
+
+.mainContainer .mainWrapper .goal .goalText2 .goalRect svg{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+.mainContainer .mainWrapper .goal .goalText2 .goalRect .pros{
+    z-index: 2;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 2rem;
+    background-color: transparent;
+    width: 100%;
+    justify-content: space-around;
+    align-self:center;
+}
+
+.mainContainer .mainWrapper .goal .goalText2 .goalRect .pros .fullstack{
+    flex: 0 0 40%;
+    background-color: #fff;
+    border: 1px solid #000;
+    padding: 1rem;
+    min-height: 11.25rem;
+    width: 100%;
+
+
+}
+
+.mainContainer .mainWrapper .goal .goalText2 .goalRect .pros .frontend{
+    flex: 0 0 40%;
+    background-color: #fff;
+    border: 1px solid #000;
+    padding: 1rem;
+    min-height: 11.25rem;
+    width: auto;
+
+
+}
+
+.mainContainer .mainWrapper .goal .goalText2 .goalRect .pros .datascientist{
+    flex: 0 0 40%;
+    background-color: #fff;
+    border: 1px solid #000;
+    padding: 1rem;
+    min-height: 11.25rem;
+    width: 100%;
+}
+
+.mainContainer .mainWrapper .goal .goalText2 .goalRect .pros .computersci{
+    flex: 0 0 40%;
+    background-color: #fff;
+    border: 1px solid #000;
+    padding: 1rem;
+    min-height: 11.25rem;
+    width: 100%;
+}
+
+.selfPace{
+    padding-left: 4rem;
+    padding-right: 4rem;
+    width: 100%;
+    height: 100%;
+    background-color: #10162f;
+    display: flex;
+    justify-content: center;
+}
+
+.selfPace .selfContainer{
+    display: flex;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.selfPace .selfContainer h3{
+    padding-bottom: 3rem;
+    line-height: 1.1;
+    max-width: 400px;
+    font-size: 2.75rem;
+    font-weight: 700;
+    color: #fdf0e5;
+}
+
+.selfPace .selfContainer .selfFirst ul{
+    margin-bottom: 1rem;
+    padding-left: 2rem;
+    row-gap: 0.5rem;
+    padding-inline-start: 0;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.selfPace .selfContainer .selfFirst ul li{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    padding-left: 0.5rem;
+    cursor: pointer;
+    color: #fdf0e5;
+    display: list-item;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 1.5px;
+
+}
+.selfPace .selfContainer .selfFirst ul li:first-child{
+    background-color: #4244e5;
+}
+
+.selfSecond{
+    padding-left: 6rem;
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    align-items: center;
+}
+
+.selfSecond img{
+    width: 31.1875rem;
+    border-radius: 2px;
+    border: 1px solid #fdf0e5;
+    vertical-align: middle;
+}
+
+.quiz{
+    background-color: #ffd300;
+}
+
+.quizContainer{
+    display: flex;
+    justify-content: space-around;
+    padding-right: 4rem;
+    padding-left: 4rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.quizContainer .quizText{
+    flex: 0 0 33%;
+    display: flex;
+    flex-direction: column;
+    max-width: 315px;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.quizContainer .quizText h3{
+    font-size: 2.75rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+    color: #10162f;
+}
+
+.quizContainer .quizText p{
+    display: inline-block;
+    color: #10162f;
+}
+
+.quizContainer .quizText a{
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #10162f;
+    border-color: transparent;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    font-size: 1rem;
+    min-width: 40px;
+    margin-top: 1.5rem;
+    background-color: #3a10e5;
+}
+
+.quizContainer .quizImg{
+    flex: 0 0 33%;
+    display: flex;
+    justify-content: center;
+}
+
+.start{
+    display: flex;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #4244e5;
+}
+
+.start .startImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 33%;
+}
+
+.start .startImg img{
+    max-width: 15.625rem;
+    margin-top: 1rem;
+    vertical-align: middle;
+}
+
+.start .startText{
+    flex: 0 0 33%;
+    display: flex;
+    flex-direction: column;
+    max-width: 315px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.start .startText h3{
+    font-size: 2.75rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+    line-height: 1.1;
+    color: #fff;
+}
+
+.start .startText p{
+    color: #fff;
+}
+
+.start .startText a{
+    cursor: pointer;
+    text-decoration: none;
+    padding-bottom: 0.25rem;
+    padding-top: 0.25rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    color: #10162f;
+    background-color: #ffd300;
+    border: 2px solid #fff;
+    border-color: transparent;
+    font-weight: 700;
+    border-radius: 4px;
+    font-size: 1rem;
+    min-width: 40px;
+    height: 40px;
+    margin-top: 1.5rem;
+}
+
+footer{
+    border-top: 1px solid #10162f;
+    background-color: #fdf0e5;
+}
+
+.footerContainer{
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 2rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer .footerContainer .foot1{
+    flex: 0 0 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+footer .footerContainer .foot1 .firstline{
+    display: flex;
+    flex: 0 0 100%;
+}
+footer .footerContainer .foot1 .firstline .company{
+    flex: 0 0 33%;
+}
+footer .footerContainer .foot1 .firstline .company svg{
+    width: 16px;
+    height: 16px;
+    margin-right: 0.5rem;
+}
+footer .footerContainer .foot1 .firstline .company ul li ul{
+    display: flex;
+}
+
+footer .footerContainer .foot1 .firstline .resources{
+    flex: 0 0 33%;
+}
+footer .footerContainer .foot1 .firstline .community{
+    flex: 0 0 33%;
+}
+footer .footerContainer .foot1 .secondline{
+    display: flex;
+    flex: 0 0 100%;
+}
+footer .footerContainer .foot1 .secondline .mobile{
+    flex: 0 0 33%;
+}  
+footer .footerContainer .foot1 .secondline .indsup{
+    flex: 0 0 33%;
+}
+footer .footerContainer .foot1 .secondline .enterprise{
+    flex: 0 0 33%;
+}
+.mobile img{
+    max-width: 150px;
+    border-radius: 3px;
+    max-width: 100px;
+    margin-top: 1rem;
+}
+
+footer .footerContainer h2{
+    font-size: 1rem;
+}
+footer .footerContainer h3{
+    font-weight: 700;
+    font-size: 0.875rem;
+}
+footer .footerContainer .foot1 .firstline ul li{
+    margin: 0.25rem 0;
+    display: list-item;
+}
+footer ul{
+    padding-left: 0;
+}
+footer a{
+    text-decoration: none;
+    color: #10162f;
+    display: inline-block;
+    cursor: pointer;
+}
+
+
+
+
+
+
+footer .footerContainer .foot2{
+    flex: 0 0 50%;
+    flex-direction: column;
+    border-left: 1px solid #10162f;
+    padding-left: 2rem;
+}
+
+footer .footerContainer .foot2 .foot2Container{
+    display: flex;
+}
+footer .footerContainer .foot2 .foot2Container ul li{
+    margin: 0.15rem 0;
+
+}
+footer .footerContainer .foot2 .foot2Container .subjects{
+    flex: 0 0 50%;
+}
+footer .footerContainer .foot2 .foot2Container .languages{
+    flex: 0 0 50%;
+}
+
+footer .footerContainer .foot3{
+    padding-left: 4rem;
+    padding-right: 4rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.last2 button{
+    border: 0;
+    background: transparent;
+}
+
+.fullstack{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.exp{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+ 
+.pros h3{
+    margin-bottom: 0.25rem;
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.1;
+}
+.pros span{
+    font-size: 0.875rem;
+}
+
+@media (max-width:480px){
+    .quizContainer{
+        flex-direction: column;
+    }
+    .start{
+        flex-direction: column;
+    }
+}
+
+@media (max-width:768px){
+    .join{
+        flex-direction: column;
+    }
+    .goal{
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width:1024px){
+    .selfContainer{
+        flex-direction: column;
+    }
+    .footerContainer{
+        flex-direction: column;
+        justify-content: center;
+    }
+    footer .footerContainer .foot2{
+        border-left: 0;
+    }
+    footer .footerContainer .foot2{
+        border-bottom: 1px solid #10162f;
+        border-top: 1px solid #10162f;
+        margin-top: 5px;
+        padding-top: 1rem;
+    }
+    .foot3{
+        padding-top: 1rem;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
